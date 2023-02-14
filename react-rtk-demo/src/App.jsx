@@ -6,8 +6,6 @@ import { IceCreamView } from './features/icecream/IceCreamView';
 import { UserView } from './features/user/UserView';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className='App'>
       <CakeView />
